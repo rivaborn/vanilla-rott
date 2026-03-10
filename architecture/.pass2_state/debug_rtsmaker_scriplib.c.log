@@ -1,0 +1,10 @@
+[Tue Mar  3 01:01:22 EST 2026] START: rtsmaker/scriplib.c
+[Tue Mar  3 01:01:22 EST 2026] fence=c src=/mnt/c/Coding/3DRealms/vanilla-rott/rtsmaker/scriplib.c
+[Tue Mar  3 01:01:22 EST 2026] pass1 loaded: 4069 bytes
+[Tue Mar  3 01:01:22 EST 2026] src_lines=216
+[Tue Mar  3 01:01:22 EST 2026] context sizes: arch=29B xref=14671B
+[Tue Mar  3 01:01:22 EST 2026] payload built: 22830 chars
+[Tue Mar  3 01:01:22 EST 2026] calling claude -p --model haiku ...
+[Tue Mar  3 01:01:22 EST 2026] attempt 1: sending to claude...
+[Tue Mar  3 01:02:01 EST 2026] claude returned: exit=0 resp_size=6678
+[Tue Mar  3 01:02:01 EST 2026] success

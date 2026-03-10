@@ -1,0 +1,569 @@
+%%{ init: { 'theme': 'dark', 'flowchart': { 'curve': 'basis' } } }%%
+graph LR
+
+  subgraph audiolib
+    ADLIBFX_ErrorString_["ADLIBFX_ErrorString"]
+    ADLIBFX_Service_["ADLIBFX_Service"]
+    ADLIBFX_SetCallBack_["ADLIBFX_SetCallBack"]
+    ADLIBFX_SetTotalVolume_["ADLIBFX_SetTotalVolume"]
+    ADLIBFX_Stop_["ADLIBFX_Stop"]
+    AL_ReserveVoice___AL_ReleaseVoice_["AL_ReserveVoice / AL_ReleaseVoice"]
+    ASSERT_macro_["ASSERT macro"]
+    AWE32_ChannelAftertouch_["AWE32_ChannelAftertouch"]
+    AWE32_ControlChange_["AWE32_ControlChange"]
+    AWE32_ErrorString_["AWE32_ErrorString"]
+    AWE32_Init_["AWE32_Init"]
+    AWE32_NoteOff_["AWE32_NoteOff"]
+    AWE32_NoteOn_["AWE32_NoteOn"]
+    AWE32_PitchBend_["AWE32_PitchBend"]
+    AWE32_PolyAftertouch_["AWE32_PolyAftertouch"]
+    AWE32_ProgramChange_["AWE32_ProgramChange"]
+    AWE32_Shutdown_["AWE32_Shutdown"]
+    BLASTER_BeginBufferedPlayback_["BLASTER_BeginBufferedPlayback"]
+    BLASTER_BeginBufferedRecord_["BLASTER_BeginBufferedRecord"]
+    BLASTER_GetCurrentPos_["BLASTER_GetCurrentPos"]
+    BLASTER_GetDSPVersion_["BLASTER_GetDSPVersion"]
+    BLASTER_Init_["BLASTER_Init"]
+    BLASTER_ReadDSP_["BLASTER_ReadDSP"]
+    BLASTER_ResetDSP_["BLASTER_ResetDSP"]
+    BLASTER_ServiceInterrupt_["BLASTER_ServiceInterrupt"]
+    BLASTER_SetCallBack_["BLASTER_SetCallBack"]
+    BLASTER_SetMixMode_["BLASTER_SetMixMode"]
+    BLASTER_SetPlaybackRate_["BLASTER_SetPlaybackRate"]
+    BLASTER_SetupDMABuffer_["BLASTER_SetupDMABuffer"]
+    BLASTER_Shutdown_["BLASTER_Shutdown"]
+    BLASTER_StopPlayback_["BLASTER_StopPlayback"]
+    BLASTER_WriteDSP_["BLASTER_WriteDSP"]
+    BLASTER_WriteDSP___BLASTER_ReadDSP_["BLASTER_WriteDSP / BLASTER_ReadDSP"]
+    CalcSamplingRate_["CalcSamplingRate"]
+    D32DosMemAlloc_["D32DosMemAlloc"]
+    DB_PrintNum_["DB_PrintNum"]
+    DB_PrintString_["DB_PrintString"]
+    DB_PrintUnsigned_["DB_PrintUnsigned"]
+    DB_PutChar_["DB_PutChar"]
+    DB_printf_["DB_printf"]
+    DMA_EndTransfer_["DMA_EndTransfer"]
+    DMA_ErrorString_["DMA_ErrorString"]
+    DMA_GetCurrentPos_["DMA_GetCurrentPos"]
+    DMA_SetupTransfer_["DMA_SetupTransfer"]
+    DPMI_GetRealModeVector_["DPMI_GetRealModeVector"]
+    DPMI_LockMemory_["DPMI_LockMemory"]
+    DPMI_LockMemoryRegion_["DPMI_LockMemoryRegion"]
+    DPMI_SetRealModeVector_["DPMI_SetRealModeVector"]
+    DPMI_UnlockMemory_["DPMI_UnlockMemory"]
+    DisableInterrupts_["DisableInterrupts"]
+    FX_StartDemandFeedPlayback_["FX_StartDemandFeedPlayback"]
+    GUSMIDI_Init_["GUSMIDI_Init"]
+    GUSMIDI_ProgramChange_["GUSMIDI_ProgramChange"]
+    GUSMIDI_SetVolume_["GUSMIDI_SetVolume"]
+    GUSMIDI_UnloadPatch_["GUSMIDI_UnloadPatch"]
+    GUSWAVE_CallBack_["GUSWAVE_CallBack"]
+    GUSWAVE_DebugCallBack_["GUSWAVE_DebugCallBack"]
+    GUSWAVE_Shutdown_["GUSWAVE_Shutdown"]
+    GUSWAVE_StartDemandFeedPlayback_["GUSWAVE_StartDemandFeedPlayback"]
+    GUS_ErrorString_["GUS_ErrorString"]
+    GUS_Init_["GUS_Init"]
+    GUS_Shutdown_["GUS_Shutdown"]
+    IRQ_RestoreVector_["IRQ_RestoreVector"]
+    IRQ_SetVector_["IRQ_SetVector"]
+    LL_AddNode_["LL_AddNode"]
+    LL_CreateNewLinkedList_["LL_CreateNewLinkedList"]
+    LL_MoveNode_["LL_MoveNode"]
+    LL_ReverseList_["LL_ReverseList"]
+    LL_SortedInsertion_["LL_SortedInsertion"]
+    LoadFile_["LoadFile"]
+    MPU_Init_["MPU_Init"]
+    MPU_Reset_["MPU_Reset"]
+    PAS_BeginBufferedPlayback_["PAS_BeginBufferedPlayback"]
+    PAS_BeginTransfer_["PAS_BeginTransfer"]
+    PAS_CallMVFunction_["PAS_CallMVFunction"]
+    PAS_CheckForDriver__PAS_GetStateTable__PAS_GetFunctionTable__PAS_GetCardSettings_["PAS_CheckForDriver, PAS_GetStateTable, PAS_GetFunctionTable, PAS_GetCardSettings"]
+    PAS_EnableInterrupt__PAS_DisableInterrupt_["PAS_EnableInterrupt, PAS_DisableInterrupt"]
+    PAS_FindCard_["PAS_FindCard"]
+    PAS_GetCurrentPos_["PAS_GetCurrentPos"]
+    PAS_Init_["PAS_Init"]
+    PAS_LockMemory___PAS_UnlockMemory_["PAS_LockMemory / PAS_UnlockMemory"]
+    PAS_LockMemory__PAS_UnlockMemory_["PAS_LockMemory, PAS_UnlockMemory"]
+    PAS_SaveMusicVolume__PAS_RestoreMusicVolume_["PAS_SaveMusicVolume, PAS_RestoreMusicVolume"]
+    PAS_SaveState__PAS_RestoreState_["PAS_SaveState, PAS_RestoreState"]
+    PAS_ServiceInterrupt_["PAS_ServiceInterrupt"]
+    PAS_SetMixMode_["PAS_SetMixMode"]
+    PAS_SetPCMVolume__PAS_GetPCMVolume_["PAS_SetPCMVolume, PAS_GetPCMVolume"]
+    PAS_SetPlaybackRate_["PAS_SetPlaybackRate"]
+    PAS_SetSampleRateTimer__PAS_SetSampleBufferCount_["PAS_SetSampleRateTimer, PAS_SetSampleBufferCount"]
+    PAS_SetupDMABuffer_["PAS_SetupDMABuffer"]
+    PAS_Shutdown_["PAS_Shutdown"]
+    PAS_StopPlayback_["PAS_StopPlayback"]
+    PAS_TestAddress_["PAS_TestAddress"]
+    PAS_Write__PAS_Read_["PAS_Write, PAS_Read"]
+    RestoreInterrupts_["RestoreInterrupts"]
+    SOUNDSCAPE_Init_["SOUNDSCAPE_Init"]
+    SOUNDSCAPE_ServiceInterrupt_["SOUNDSCAPE_ServiceInterrupt"]
+    SOUNDSCAPE_SetMixMode_["SOUNDSCAPE_SetMixMode"]
+    SOUNDSCAPE_SetPlaybackRate_["SOUNDSCAPE_SetPlaybackRate"]
+    SS_BeginBufferedPlayback_["SS_BeginBufferedPlayback"]
+    TS_Dispatch_["TS_Dispatch"]
+    Trivial_Helper_Functions_["Trivial Helper Functions"]
+    TurnOffTextCursor___TurnOnTextCursor_["TurnOffTextCursor / TurnOnTextCursor"]
+    USRHOOKS_FreeMem_["USRHOOKS_FreeMem"]
+    USRHOOKS_GetMem_["USRHOOKS_GetMem"]
+    _Assert_["_Assert"]
+    main_["main"]
+    myputch_["myputch"]
+  end
+
+  subgraph rott
+    ActivateLight___DeactivateLight_["ActivateLight / DeactivateLight"]
+    AddEvent_["AddEvent"]
+    AddStatic_["AddStatic"]
+    AddStatic___RemoveStatic_["AddStatic / RemoveStatic"]
+    ApogeeTitle_["ApogeeTitle"]
+    BuildTables_["BuildTables"]
+    CalcHeight_["CalcHeight"]
+    CalcPlanes_["CalcPlanes"]
+    CalcRotate_["CalcRotate"]
+    CalcTics_["CalcTics"]
+    CalculateCRC_["CalculateCRC"]
+    ChangeMapScale_["ChangeMapScale"]
+    CheatSpawnItem_["CheatSpawnItem"]
+    CheckCriticalStatics_["CheckCriticalStatics"]
+    CheckDebug_["CheckDebug"]
+    CheckParm_["CheckParm"]
+    CheckTile_["CheckTile"]
+    CinematicSetPalette_["CinematicSetPalette"]
+    CloseSpaceBall_["CloseSpaceBall"]
+    ConnectAreas_["ConnectAreas"]
+    CreateEvent_["CreateEvent"]
+    DeleteEvent_["DeleteEvent"]
+    DoAnimatedMaskedWalls_["DoAnimatedMaskedWalls"]
+    DoCreditScreen_["DoCreditScreen"]
+    DoEndCinematic_["DoEndCinematic"]
+    DoGodMode__DoItemCheat__DoSomeItemCheat__etc__["DoGodMode, DoItemCheat, DoSomeItemCheat, etc."]
+    DoMap_["DoMap"]
+    DoSprites_["DoSprites"]
+    DoorClosing_["DoorClosing"]
+    DoorOpening_["DoorOpening"]
+    DoorReadyToClose_["DoorReadyToClose"]
+    DrawCinematicBackdrop_["DrawCinematicBackdrop"]
+    DrawCinematicBackground___DrawCinematicMultiBackground_["DrawCinematicBackground / DrawCinematicMultiBackground"]
+    DrawCinematicSprite_["DrawCinematicSprite"]
+    DrawFadeout_["DrawFadeout"]
+    DrawFilmPost_["DrawFilmPost"]
+    DrawFullMap_["DrawFullMap"]
+    DrawHeightPost__["DrawHeightPost_"]
+    DrawIString_["DrawIString"]
+    DrawMap_["DrawMap"]
+    DrawMapPost__["DrawMapPost_"]
+    DrawMap_Actor___DrawMap_Sprite_["DrawMap_Actor / DrawMap_Sprite"]
+    DrawMap_Door___DrawMap_MaskedWall___DrawMap_PushWall_["DrawMap_Door / DrawMap_MaskedWall / DrawMap_PushWall"]
+    DrawMap_MaskedShape_["DrawMap_MaskedShape"]
+    DrawMap_Player_["DrawMap_Player"]
+    DrawMap_PlayerArrow_["DrawMap_PlayerArrow"]
+    DrawMap_Wall___DrawMap_AnimatedWall___DrawMap_SkyTile_["DrawMap_Wall / DrawMap_AnimatedWall / DrawMap_SkyTile"]
+    DrawMenuPost__["DrawMenuPost_"]
+    DrawPlanePosts_["DrawPlanePosts"]
+    DrawPlayerWeapon_["DrawPlayerWeapon"]
+    DrawPost__["DrawPost_"]
+    DrawRotPost_["DrawRotPost"]
+    DrawRotatedScreen_["DrawRotatedScreen"]
+    DrawScaleds_["DrawScaleds"]
+    DrawText___myputch___myprintf_["DrawText / myputch / myprintf"]
+    DrawTiledRegion_["DrawTiledRegion"]
+    DrawTransformedPlanes_["DrawTransformedPlanes"]
+    DrawWallPost_["DrawWallPost"]
+    DrawWalls_["DrawWalls"]
+    DrawXYPic_["DrawXYPic"]
+    Error_["Error"]
+    FX_StartDemandFeedPlayback_["FX_StartDemandFeedPlayback"]
+    FindEmptyTile_["FindEmptyTile"]
+    FixedMul_["FixedMul"]
+    FixedMulShift_["FixedMulShift"]
+    FlipMenuBuf_["FlipMenuBuf"]
+    FlipPage_["FlipPage"]
+    GameLoop_["GameLoop"]
+    GetEventType_["GetEventType"]
+    GetNewCinematicActor_["GetNewCinematicActor"]
+    GetNewEvent_["GetNewEvent"]
+    GetPoint_["GetPoint"]
+    GetSpaceBallButtons_["GetSpaceBallButtons"]
+    GetToken_["GetToken"]
+    GetTokenEOL_["GetTokenEOL"]
+    GetWallIndex_["GetWallIndex"]
+    GetWarp_["GetWarp"]
+    GetWarpLevels_["GetWarpLevels"]
+    HandleSpaceBallMotion_["HandleSpaceBallMotion"]
+    HandleWord_["HandleWord"]
+    IN_GetJoyAbs_["IN_GetJoyAbs"]
+    IN_Shutdown_["IN_Shutdown"]
+    I_GetCMOSTime_["I_GetCMOSTime"]
+    I_KeyboardISR_["I_KeyboardISR"]
+    I_SendKeyboardData_["I_SendKeyboardData"]
+    I_SetTimer0_["I_SetTimer0"]
+    I_ShutdownTimer_["I_ShutdownTimer"]
+    I_StartupKeyboard_["I_StartupKeyboard"]
+    I_StartupTimer_["I_StartupTimer"]
+    I_TimerISR_["I_TimerISR"]
+    InitAreas_["InitAreas"]
+    Interception_Macros__malloc__free__strcpy__memcpy__etc___["Interception Macros (malloc, free, strcpy, memcpy, etc.)"]
+    InterpolateDoor_["InterpolateDoor"]
+    InterpolateMaskedWall_["InterpolateMaskedWall"]
+    InterpolateWall_["InterpolateWall"]
+    LaunchROTT_["LaunchROTT"]
+    Link_To_Touchplate_["Link_To_Touchplate"]
+    LoadFile___SaveFile_["LoadFile / SaveFile"]
+    LoadROTTMap_["LoadROTTMap"]
+    LoadScriptFile_["LoadScriptFile"]
+    MN_PlayMenuSnd_["MN_PlayMenuSnd"]
+    MouseInt_["MouseInt"]
+    MovePWalls_["MovePWalls"]
+    NetISR_["NetISR"]
+    OpenDoor_["OpenDoor"]
+    OpenSpaceBall_["OpenSpaceBall"]
+    OperateDoor_["OperateDoor"]
+    PAS_CallMVFunction_["PAS_CallMVFunction"]
+    ParseBack___ParseSprite___ParseFlic___ParsePalette_["ParseBack / ParseSprite / ParseFlic / ParsePalette"]
+    ParseEvent_["ParseEvent"]
+    PollControls_["PollControls"]
+    PollSpaceBall_["PollSpaceBall"]
+    PositionMenuBuf_["PositionMenuBuf"]
+    PreCache_["PreCache"]
+    PreCacheActor_["PreCacheActor"]
+    PreCacheStaticFrames___PreCacheStaticSounds_["PreCacheStaticFrames / PreCacheStaticSounds"]
+    PreCacheStaticSounds_["PreCacheStaticSounds"]
+    Precache_Functions_["Precache Functions"]
+    PrecacheCinematic_["PrecacheCinematic"]
+    ProcessElevators_["ProcessElevators"]
+    QueueLetterInput_["QueueLetterInput"]
+    R_DrawFilmColumn_["R_DrawFilmColumn"]
+    R_DrawFilmColumn__["R_DrawFilmColumn_"]
+    R_DrawWallColumn_["R_DrawWallColumn"]
+    ReadPacket_["ReadPacket"]
+    ReadROTTMap_["ReadROTTMap"]
+    RecursiveConnect_["RecursiveConnect"]
+    RemoveStatic_["RemoveStatic"]
+    ResetFocalWidth_["ResetFocalWidth"]
+    RotateBuffer_["RotateBuffer"]
+    SD_GetSoundData_["SD_GetSoundData"]
+    SD_PanRTP_["SD_PanRTP"]
+    SD_PlaySoundRTP_["SD_PlaySoundRTP"]
+    SD_PreCacheSound_["SD_PreCacheSound"]
+    SD_PreCacheSoundGroup_["SD_PreCacheSoundGroup"]
+    SD_StartIncomingSound_["SD_StartIncomingSound"]
+    SD_StartRecordingSound_["SD_StartRecordingSound"]
+    SD_Startup_["SD_Startup"]
+    SD_UpdateIncomingSound_["SD_UpdateIncomingSound"]
+    SD_UpdatePlaybackSound_["SD_UpdatePlaybackSound"]
+    SD_UpdateRecordingSound_["SD_UpdateRecordingSound"]
+    SPW_SingleAxisFilter_["SPW_SingleAxisFilter"]
+    SWIFT_GetAttachedDevice_["SWIFT_GetAttachedDevice"]
+    SWIFT_Initialize_["SWIFT_Initialize"]
+    SafeOpenWrite_["SafeOpenWrite"]
+    SafeRead___SafeWrite_["SafeRead / SafeWrite"]
+    SaveDoors___LoadDoors_["SaveDoors / LoadDoors"]
+    SaveMaskedWalls___LoadMaskedWalls_["SaveMaskedWalls / LoadMaskedWalls"]
+    SavePushWalls___LoadPushWalls_["SavePushWalls / LoadPushWalls"]
+    SaveStatics___LoadStatics_["SaveStatics / LoadStatics"]
+    SaveTouchPlates___LoadTouchPlates_["SaveTouchPlates / LoadTouchPlates"]
+    SbConfigGetButton_["SbConfigGetButton"]
+    SbConfigGetButtonNumber_["SbConfigGetButtonNumber"]
+    SbConfigGetWarpRange_["SbConfigGetWarpRange"]
+    SbConfigParse_["SbConfigParse"]
+    SbConfigWarp_["SbConfigWarp"]
+    SbFxConfigWarp_["SbFxConfigWarp"]
+    ScaleFilmPost_["ScaleFilmPost"]
+    ScaleMaskedPost_["ScaleMaskedPost"]
+    ScaleShape_["ScaleShape"]
+    ScaleTransparentPost_["ScaleTransparentPost"]
+    ScaleTransparentShape_["ScaleTransparentShape"]
+    SendPacket_["SendPacket"]
+    SetColorLightLevel_["SetColorLightLevel"]
+    SetSoundDefaultValues_["SetSoundDefaultValues"]
+    SetSpriteLightLevel_["SetSpriteLightLevel"]
+    SetupActors_["SetupActors"]
+    SetupClocks_["SetupClocks"]
+    SetupDoors_["SetupDoors"]
+    SetupGameLevel_["SetupGameLevel"]
+    SetupMapScale_["SetupMapScale"]
+    SetupMapper___ShutdownMapper_["SetupMapper / ShutdownMapper"]
+    SetupMaskedWalls_["SetupMaskedWalls"]
+    SetupMenuBuf_["SetupMenuBuf"]
+    SetupPlayers_["SetupPlayers"]
+    SetupWalls_["SetupWalls"]
+    ShiftTowardZero_["ShiftTowardZero"]
+    ShutdownCinematicActors_["ShutdownCinematicActors"]
+    ShutdownROTTCOM_["ShutdownROTTCOM"]
+    SortVisibleList_["SortVisibleList"]
+    SpawnCinematicActor_["SpawnCinematicActor"]
+    SpawnCinematicBack_["SpawnCinematicBack"]
+    SpawnCinematicFlic_["SpawnCinematicFlic"]
+    SpawnCinematicMultiBack_["SpawnCinematicMultiBack"]
+    SpawnCinematicSprite_["SpawnCinematicSprite"]
+    SpawnDoor_["SpawnDoor"]
+    SpawnMaskedWall_["SpawnMaskedWall"]
+    SpawnPushWall_["SpawnPushWall"]
+    SpawnStatic_["SpawnStatic"]
+    SpawnStaticDamage_["SpawnStaticDamage"]
+    SpwSimpleGet_["SpwSimpleGet"]
+    StartupEvents___ShutdownEvents_["StartupEvents / ShutdownEvents"]
+    SyncTime_["SyncTime"]
+    TS_Dispatch_["TS_Dispatch"]
+    Teleport_["Teleport"]
+    ThreeDRefresh_["ThreeDRefresh"]
+    TransformDoors_["TransformDoors"]
+    TransformObject_["TransformObject"]
+    TransformPlane_["TransformPlane"]
+    TransformPoint_["TransformPoint"]
+    TriggerStuff_["TriggerStuff"]
+    TurnOnLight___TurnOffLight_["TurnOnLight / TurnOffLight"]
+    UL_DivisionISR_["UL_DivisionISR"]
+    UL_DriveError_["UL_DriveError"]
+    UL_ErrorShutdown_["UL_ErrorShutdown"]
+    UL_ErrorStartup_["UL_ErrorStartup"]
+    UL_GeneralError_["UL_GeneralError"]
+    UL_ShutdownDivisionByZero_["UL_ShutdownDivisionByZero"]
+    UL_StartupDivisionByZero_["UL_StartupDivisionByZero"]
+    UL_UserMessage_["UL_UserMessage"]
+    UL_harderr_["UL_harderr"]
+    USRHOOKS_FreeMem_["USRHOOKS_FreeMem"]
+    USRHOOKS_GetMem_["USRHOOKS_GetMem"]
+    US_DrawWindow_["US_DrawWindow"]
+    US_LineInput___US_lineinput_["US_LineInput / US_lineinput"]
+    US_MeasureStr_["US_MeasureStr"]
+    US_Print___US_BufPrint_["US_Print / US_BufPrint"]
+    UpdateCinematicEvents_["UpdateCinematicEvents"]
+    UpdateMaskedWall_["UpdateMaskedWall"]
+    UseDoor_["UseDoor"]
+    VGAMAPMASK_["VGAMAPMASK"]
+    VGAREADMAP_["VGAREADMAP"]
+    VGAWRITEMAP_["VGAWRITEMAP"]
+    VL_Bar_["VL_Bar"]
+    VL_ClearBuffer_["VL_ClearBuffer"]
+    VL_ClearVideo_["VL_ClearVideo"]
+    VL_DecompressLBM_["VL_DecompressLBM"]
+    VL_DrawLine_["VL_DrawLine"]
+    VL_FadeIn_["VL_FadeIn"]
+    VL_FadeOut_["VL_FadeOut"]
+    VL_FadeToColor_["VL_FadeToColor"]
+    VL_MemToScreen_["VL_MemToScreen"]
+    VL_SetPalette___VL_GetPalette_["VL_SetPalette / VL_GetPalette"]
+    VL_SetVGAPlaneMode_["VL_SetVGAPlaneMode"]
+    VL_TBar_["VL_TBar"]
+    VWB_DrawPic_["VWB_DrawPic"]
+    VWB_DrawPropString___VWB_DrawIPropString_["VWB_DrawPropString / VWB_DrawIPropString"]
+    VW_MarkUpdateBlock_["VW_MarkUpdateBlock"]
+    VW_UpdateScreen_["VW_UpdateScreen"]
+    W_AddFile_["W_AddFile"]
+    W_CacheLumpName_["W_CacheLumpName"]
+    W_CacheLumpNum_["W_CacheLumpNum"]
+    W_GetNumForName_["W_GetNumForName"]
+    W_InitMultipleFiles_["W_InitMultipleFiles"]
+    WaitVBL_["WaitVBL"]
+    WallPushing_["WallPushing"]
+    WallRefresh_["WallRefresh"]
+    WriteConfig_["WriteConfig"]
+    WritePCX_["WritePCX"]
+    WritePacket_["WritePacket"]
+    Z_LevelMalloc_["Z_LevelMalloc"]
+    Z_Malloc_["Z_Malloc"]
+    allocDOS_["allocDOS"]
+    freeDOS_["freeDOS"]
+    main_["main"]
+    write_buffer_["write_buffer"]
+    write_bytes_["write_bytes"]
+  end
+
+  subgraph rottcom
+    CheckParm_["CheckParm"]
+    Error_["Error"]
+    GetRandomMessage_["GetRandomMessage"]
+    GetToken_["GetToken"]
+    GetTokenEOL_["GetTokenEOL"]
+    InitNetwork_["InitNetwork"]
+    LaunchROTT_["LaunchROTT"]
+    LoadFile_["LoadFile"]
+    LoadFile___SaveFile_["LoadFile / SaveFile"]
+    LoadScriptFile_["LoadScriptFile"]
+    NetISR_["NetISR"]
+    ROTTNET_ISR_["ROTTNET_ISR"]
+    ReadPacket_["ReadPacket"]
+    SafeMalloc_["SafeMalloc"]
+    SafeOpenRead_["SafeOpenRead"]
+    SafeOpenWrite_["SafeOpenWrite"]
+    SafeRead_["SafeRead"]
+    SendPacket_["SendPacket"]
+    SetupROTTCOM_["SetupROTTCOM"]
+    SetupRandomMessages_["SetupRandomMessages"]
+    ShutdownROTTCOM_["ShutdownROTTCOM"]
+    WritePacket_["WritePacket"]
+    main_["main"]
+    write_buffer_["write_buffer"]
+    write_bytes_["write_bytes"]
+  end
+
+  subgraph rtsmaker
+    CheckParm_["CheckParm"]
+    DefaultExtension___DefaultPath_["DefaultExtension / DefaultPath"]
+    Error_["Error"]
+    GetPalette___SetPalette_["GetPalette / SetPalette"]
+    GetToken_["GetToken"]
+    LoadFile___SaveFile_["LoadFile / SaveFile"]
+    LoadScriptFile_["LoadScriptFile"]
+    ParseHex___ParseNum_["ParseHex / ParseNum"]
+    SafeMalloc___SafeFree_["SafeMalloc / SafeFree"]
+    SafeOpenRead_["SafeOpenRead"]
+    SafeOpenWrite_["SafeOpenWrite"]
+    SafeRead___SafeWrite_["SafeRead / SafeWrite"]
+    StripFilename___ExtractFileBase_["StripFilename / ExtractFileBase"]
+    main_["main"]
+  end
+
+  ADLIBFX_Service_ --> ADLIBFX_LengthLeft_
+  ADLIBFX_Service_ --> ADLIBFX_SoundPtr_
+  ADLIBFX_SetCallBack_ --> ADLIBFX_CallBackVal_
+  ADLIBFX_Stop_ --> ADLIBFX_CallBackVal_
+  ADLIBFX_Stop_ --> ADLIBFX_LengthLeft_
+  ADLIBFX_Stop_ --> ADLIBFX_SoundPtr_
+  ASSERT_macro_ --> _Assert_
+  AWE32_ChannelAftertouch_ --> RestoreES_
+  AWE32_ChannelAftertouch_ --> SetES_
+  AWE32_ControlChange_ --> RestoreES_
+  AWE32_ControlChange_ --> SetES_
+  AWE32_ControlChange_ --> awe32NoteOff_
+  AWE32_Init_ --> DPMI_Lock_
+  AWE32_Init_ --> DPMI_LockMemory_
+  AWE32_Init_ --> DPMI_LockMemoryRegion_
+  AWE32_NoteOff_ --> RestoreES_
+  AWE32_NoteOff_ --> SetES_
+  AWE32_NoteOff_ --> awe32NoteOff_
+  AWE32_NoteOn_ --> RestoreES_
+  AWE32_NoteOn_ --> SetES_
+  AWE32_NoteOn_ --> awe32NoteOn_
+  AWE32_PitchBend_ --> RestoreES_
+  AWE32_PitchBend_ --> SetES_
+  AWE32_PolyAftertouch_ --> RestoreES_
+  AWE32_PolyAftertouch_ --> SetES_
+  AWE32_ProgramChange_ --> RestoreES_
+  AWE32_ProgramChange_ --> SetES_
+  AWE32_Shutdown_ --> DPMI_UnlockMemory_
+  AddStatic___RemoveStatic_ --> MakeStatActive_
+  AddStatic___RemoveStatic_ --> MakeStatInactive_
+  ApogeeTitle_ --> CalcTics_
+  ApogeeTitle_ --> DrawRotatedScreen_
+  ApogeeTitle_ --> FlipPage_
+  ApogeeTitle_ --> StartupRotateBuffer_
+  BLASTER_BeginBufferedPlayback_ --> BLASTER_EnableInterrupt_
+  BLASTER_BeginBufferedPlayback_ --> BLASTER_SetCallBack_
+  BLASTER_BeginBufferedPlayback_ --> BLASTER_SetMixMode_
+  BLASTER_BeginBufferedPlayback_ --> BLASTER_SetPlaybackRate_
+  BLASTER_BeginBufferedPlayback_ --> BLASTER_SetupDMABuffer_
+  BLASTER_BeginBufferedPlayback_ --> BLASTER_StopPlayback_
+  BLASTER_BeginBufferedRecord_ --> BLASTER_EnableInterrupt_
+  BLASTER_BeginBufferedRecord_ --> BLASTER_SetCallBack_
+  BLASTER_BeginBufferedRecord_ --> BLASTER_SetMixMode_
+  BLASTER_BeginBufferedRecord_ --> BLASTER_SetPlaybackRate_
+  BLASTER_BeginBufferedRecord_ --> BLASTER_SetupDMABuffer_
+  BLASTER_BeginBufferedRecord_ --> BLASTER_SpeakerOff_
+  BLASTER_BeginBufferedRecord_ --> BLASTER_StopPlayback_
+  BLASTER_GetCurrentPos_ --> DMA_GetCurrentPos_
+  BLASTER_GetDSPVersion_ --> BLASTER_ReadDSP_
+  BLASTER_GetDSPVersion_ --> BLASTER_SetErrorCode_
+  BLASTER_GetDSPVersion_ --> BLASTER_WriteDSP_
+  BLASTER_Init_ --> BLASTER_GetDSPVersion_
+  BLASTER_Init_ --> BLASTER_ResetDSP_
+  BLASTER_Init_ --> BLASTER_Shutdown_
+  BLASTER_Init_ --> IRQ_SetVector_
+  BLASTER_Init_ --> _dos_getvect_
+  BLASTER_Init_ --> _dos_setvect_
+  BLASTER_Init_ --> allocateTimerStack_
+  BLASTER_ResetDSP_ --> BLASTER_ReadDSP_
+  BLASTER_ResetDSP_ --> outp_
+  BLASTER_ServiceInterrupt_ --> BLASTER_ReadDSP_
+  BLASTER_ServiceInterrupt_ --> GetStack_
+  BLASTER_ServiceInterrupt_ --> SetStack_
+  BLASTER_ServiceInterrupt_ --> _chain_intr_
+  BLASTER_SetMixMode_ --> BLASTER_SetPlaybackRate_
+  BLASTER_SetMixMode_ --> inp_
+  BLASTER_SetMixMode_ --> outp_
+  BLASTER_SetPlaybackRate_ --> BLASTER_WriteDSP_
+  BLASTER_SetPlaybackRate_ --> CalcSamplingRate_
+  BLASTER_Shutdown_ --> BLASTER_ResetDSP_
+  BLASTER_Shutdown_ --> BLASTER_StopPlayback_
+  BLASTER_Shutdown_ --> IRQ_RestoreVector_
+  BLASTER_Shutdown_ --> _dos_setvect_
+  BLASTER_Shutdown_ --> deallocateTimerStack_
+  BLASTER_StopPlayback_ --> BLASTER_ResetDSP_
+  BLASTER_StopPlayback_ --> BLASTER_SpeakerOff_
+  BLASTER_StopPlayback_ --> BLASTER_WriteDSP_
+  BLASTER_StopPlayback_ --> DMA_EndTransfer_
+  BLASTER_WriteDSP___BLASTER_ReadDSP_ --> BLASTER_SetErrorCode_
+  BLASTER_WriteDSP___BLASTER_ReadDSP_ --> inp_
+  BLASTER_WriteDSP___BLASTER_ReadDSP_ --> outp_
+  BuildTables_ --> W_CacheLumpName_
+  BuildTables_ --> W_GetNumForName_
+  CalcHeight_ --> FixedMul_
+  CalcPlanes_ --> GetPoint_
+  ChangeMapScale_ --> DrawFullMap_
+  ChangeMapScale_ --> SetupMapScale_
+  CheckCriticalStatics_ --> MakeStatActive_
+  CheckCriticalStatics_ --> RemoveStatic_
+  CheckCriticalStatics_ --> SD_PlaySoundRTP_
+  CheckCriticalStatics_ --> SpawnNewObj_
+  CheckCriticalStatics_ --> SpawnStatic_
+  CheckParm_ --> stricmp_
+  CheckTile_ --> AREANUMBER_
+  CheckTile_ --> IsPlatform_
+  CheckTile_ --> IsWindow_
+  ConnectAreas_ --> MakeStatActive_
+  ConnectAreas_ --> MakeStatInactive_
+  ConnectAreas_ --> RecursiveConnect_
+  CreateEvent_ --> AddEvent_
+  CreateEvent_ --> GetNewEvent_
+  D32DosMemAlloc_ --> int386_
+  DB_PrintNum_ --> DB_PrintString_
+  DB_PrintString_ --> DB_PutChar_
+  DB_PrintUnsigned_ --> DB_PrintString_
+  DB_printf_ --> DB_PrintNum_
+  DB_printf_ --> DB_PrintString_
+  DB_printf_ --> DB_PrintUnsigned_
+  DB_printf_ --> DB_PutChar_
+  DPMI_GetRealModeVector_ --> Regs_
+  DPMI_LockMemory_ --> Regs_
+  DPMI_SetRealModeVector_ --> Regs_
+  DPMI_UnlockMemory_ --> Regs_
+  DefaultExtension___DefaultPath_ --> strcpy_
+  DefaultExtension___DefaultPath_ --> strlen_
+  DeleteEvent_ --> SafeFree_
+  DoAnimatedMaskedWalls_ --> KillAnimatedMaskedWall_
+  DoCreditScreen_ --> FlipPage_
+  DoCreditScreen_ --> VL_FadeIn_
+  DoCreditScreen_ --> VL_FadeOut_
+  DoMap_ --> CalcTics_
+  DoMap_ --> ChangeMapScale_
+  DoMap_ --> DoSprites_
+  DoMap_ --> DrawMap_
+  DoSprites_ --> RemoveStatic_
+  DoorClosing_ --> ConnectAreas_
+  DoorClosing_ --> ResolveDoorSpace_
+  DoorClosing_ --> SD_PanRTP_
+  DoorClosing_ --> SD_PlaySoundRTP_
+  DoorOpening_ --> ConnectAreas_
+  DoorOpening_ --> SD_PanRTP_
+  DoorOpening_ --> SD_PlaySoundRTP_
+  DrawCinematicBackdrop_ --> DrawFilmPost_
+  DrawCinematicBackdrop_ --> W_CacheLumpName_
+  DrawCinematicBackground___DrawCinematicMultiBackground_ --> DrawFilmPost_
+  DrawCinematicBackground___DrawCinematicMultiBackground_ --> W_CacheLumpName_
+  DrawCinematicSprite_ --> FixedMul_
+  DrawCinematicSprite_ --> R_DrawFilmColumn_
+  DrawCinematicSprite_ --> ScaleFilmPost_
+  DrawCinematicSprite_ --> W_CacheLumpNum_
+  DrawCinematicSprite_ --> W_GetNumForName_
+  DrawFadeout_ --> CinematicSetPalette_
+  DrawFadeout_ --> VL_ClearVideo_
+  DrawFadeout_ --> WaitVBL_
+  DrawFullMap_ --> FlipPage_
+  DrawHeightPost__ --> _hp_srcstep_
+  DrawHeightPost__ --> _hp_startfrac_
+  DrawHeightPost__ --> _shadingtable_
+  DrawIString_ --> DrawIntensityChar_
+  DrawMap_ --> DrawMap_MaskedShape_

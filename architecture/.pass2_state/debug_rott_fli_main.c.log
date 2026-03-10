@@ -1,0 +1,11 @@
+[Tue Mar  3 00:39:12 EST 2026] START: rott/fli_main.c
+[Tue Mar  3 00:39:12 EST 2026] fence=c src=/mnt/c/Coding/3DRealms/vanilla-rott/rott/fli_main.c
+[Tue Mar  3 00:39:12 EST 2026] pass1 loaded: 13642 bytes
+[Tue Mar  3 00:39:12 EST 2026] src_lines=598
+[Tue Mar  3 00:39:12 EST 2026] source truncated to 500 lines
+[Tue Mar  3 00:39:12 EST 2026] context sizes: arch=29B xref=14671B
+[Tue Mar  3 00:39:12 EST 2026] payload built: 40339 chars
+[Tue Mar  3 00:39:12 EST 2026] calling claude -p --model haiku ...
+[Tue Mar  3 00:39:12 EST 2026] attempt 1: sending to claude...
+[Tue Mar  3 00:39:49 EST 2026] claude returned: exit=0 resp_size=6902
+[Tue Mar  3 00:39:49 EST 2026] success

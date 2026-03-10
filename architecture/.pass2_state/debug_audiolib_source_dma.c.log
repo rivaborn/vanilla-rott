@@ -1,0 +1,10 @@
+[Tue Mar  3 00:23:40 EST 2026] START: audiolib/source/dma.c
+[Tue Mar  3 00:23:40 EST 2026] fence=c src=/mnt/c/Coding/3DRealms/vanilla-rott/audiolib/source/dma.c
+[Tue Mar  3 00:23:40 EST 2026] pass1 loaded: 5881 bytes
+[Tue Mar  3 00:23:40 EST 2026] src_lines=379
+[Tue Mar  3 00:23:40 EST 2026] context sizes: arch=29B xref=14671B
+[Tue Mar  3 00:23:40 EST 2026] payload built: 29867 chars
+[Tue Mar  3 00:23:40 EST 2026] calling claude -p --model haiku ...
+[Tue Mar  3 00:23:40 EST 2026] attempt 1: sending to claude...
+[Tue Mar  3 00:24:19 EST 2026] claude returned: exit=0 resp_size=4774
+[Tue Mar  3 00:24:19 EST 2026] success

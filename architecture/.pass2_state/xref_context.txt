@@ -1,0 +1,300 @@
+# Cross-Reference Index
+
+Auto-generated from per-file architecture docs.
+
+## Function Definition Map
+
+| Function | Defined In |
+|----------|-----------|
+| `ADLIBFX_ErrorString` | `audiolib/source/adlibfx.c` |
+| `ADLIBFX_ErrorString` | `audiolib/source/adlibfx.h` |
+| `ADLIBFX_GetTotalVolume` | `audiolib/source/adlibfx.c` |
+| `ADLIBFX_Init` | `audiolib/source/adlibfx.c` |
+| `ADLIBFX_Init` | `audiolib/source/adlibfx.h` |
+| `ADLIBFX_LockEnd` | `audiolib/source/adlibfx.c` |
+| `ADLIBFX_Play` | `audiolib/source/adlibfx.c` |
+| `ADLIBFX_Play` | `audiolib/source/adlibfx.h` |
+| `ADLIBFX_SendOutput` | `audiolib/source/adlibfx.c` |
+| `ADLIBFX_Service` | `audiolib/source/adlibfx.c` |
+| `ADLIBFX_SetCallBack` | `audiolib/source/adlibfx.c` |
+| `ADLIBFX_SetCallBack` | `audiolib/source/adlibfx.h` |
+| `ADLIBFX_SetTotalVolume` | `audiolib/source/adlibfx.c` |
+| `ADLIBFX_SetVolume` | `audiolib/source/adlibfx.c` |
+| `ADLIBFX_SetVolume` | `audiolib/source/adlibfx.h` |
+| `ADLIBFX_Shutdown` | `audiolib/source/adlibfx.c` |
+| `ADLIBFX_Shutdown` | `audiolib/source/adlibfx.h` |
+| `ADLIBFX_SoundPlaying` | `audiolib/source/adlibfx.c` |
+| `ADLIBFX_SoundPlaying` | `audiolib/source/adlibfx.h` |
+| `ADLIBFX_Stop` | `audiolib/source/adlibfx.c` |
+| `ADLIBFX_Stop` | `audiolib/source/adlibfx.h` |
+| `ADLIBFX_VoiceAvailable` | `audiolib/source/adlibfx.c` |
+| `ADLIBFX_VoiceAvailable` | `audiolib/source/adlibfx.h` |
+| `AL_AllocVoice` | `audiolib/source/_al_midi.h` |
+| `AL_AllocVoice` | `audiolib/source/al_midi.c` |
+| `AL_CalcPitchInfo` | `audiolib/source/_al_midi.h` |
+| `AL_CalcPitchInfo` | `audiolib/source/al_midi.c` |
+| `AL_ControlChange` | `audiolib/source/al_midi.c` |
+| `AL_ControlChange / AL_SetPitchBend` | `audiolib/source/al_midi.h` |
+| `AL_DetectFM` | `audiolib/source/al_midi.c` |
+| `AL_DetectFM` | `audiolib/source/al_midi.h` |
+| `AL_FlushCard` | `audiolib/source/al_midi.c` |
+| `AL_GetVoice` | `audiolib/source/_al_midi.h` |
+| `AL_GetVoice` | `audiolib/source/al_midi.c` |
+| `AL_Init` | `audiolib/source/al_midi.c` |
+| `AL_Init` | `audiolib/source/al_midi.h` |
+| `AL_NoteOff` | `audiolib/source/al_midi.c` |
+| `AL_NoteOn` | `audiolib/source/al_midi.c` |
+| `AL_NoteOn / AL_NoteOff` | `audiolib/source/al_midi.h` |
+| `AL_ProgramChange` | `audiolib/source/al_midi.c` |
+| `AL_ProgramChange` | `audiolib/source/al_midi.h` |
+| `AL_RegisterTimbreBank` | `audiolib/source/al_midi.c` |
+| `AL_RegisterTimbreBank` | `audiolib/source/al_midi.h` |
+| `AL_ReserveVoice / AL_ReleaseVoice` | `audiolib/source/al_midi.c` |
+| `AL_ReserveVoice / AL_ReleaseVoice` | `audiolib/source/al_midi.h` |
+| `AL_Reset` | `audiolib/source/al_midi.c` |
+| `AL_ResetVoices` | `audiolib/source/_al_midi.h` |
+| `AL_ResetVoices` | `audiolib/source/al_midi.c` |
+| `AL_SendOutput` | `audiolib/source/al_midi.c` |
+| `AL_SendOutputToPort` | `audiolib/source/al_midi.c` |
+| `AL_SetChannelVolume, AL_SetChannelPan, AL_SetChannelDetune` | `audiolib/source/_al_midi.h` |
+| `AL_SetPitchBend` | `audiolib/source/al_midi.c` |
+| `AL_SetVoicePitch` | `audiolib/source/al_midi.c` |
+| `AL_SetVoicePitch, AL_SetVoiceVolume` | `audiolib/source/_al_midi.h` |
+| `AL_SetVoiceTimbre` | `audiolib/source/_al_midi.h` |
+| `AL_SetVoiceTimbre` | `audiolib/source/al_midi.c` |
+| `AL_SetVoiceVolume` | `audiolib/source/al_midi.c` |
+| `AL_Shutdown` | `audiolib/source/al_midi.c` |
+| `AL_Shutdown` | `audiolib/source/al_midi.h` |
+| `ASSERT macro` | `audiolib/source/assert.h` |
+| `AWE32_ChannelAftertouch` | `audiolib/source/awe32.c` |
+| `AWE32_ControlChange` | `audiolib/source/awe32.c` |
+| `AWE32_ControlChange` | `audiolib/source/awe32.h` |
+| `AWE32_ErrorString` | `audiolib/source/awe32.c` |
+| `AWE32_ErrorString` | `audiolib/source/awe32.h` |
+| `AWE32_Init` | `audiolib/source/awe32.c` |
+| `AWE32_Init` | `audiolib/source/awe32.h` |
+| `AWE32_NoteOff` | `audiolib/source/awe32.c` |
+| `AWE32_NoteOn` | `audiolib/source/awe32.c` |
+| `AWE32_NoteOn, AWE32_NoteOff` | `audiolib/source/awe32.h` |
+| `AWE32_PitchBend` | `audiolib/source/awe32.c` |
+| `AWE32_PitchBend` | `audiolib/source/awe32.h` |
+| `AWE32_PolyAftertouch` | `audiolib/source/awe32.c` |
+| `AWE32_PolyAftertouch, AWE32_ChannelAftertouch` | `audiolib/source/awe32.h` |
+| `AWE32_ProgramChange` | `audiolib/source/awe32.c` |
+| `AWE32_ProgramChange` | `audiolib/source/awe32.h` |
+| `AWE32_Shutdown` | `audiolib/source/awe32.c` |
+| `AWE32_Shutdown` | `audiolib/source/awe32.h` |
+| `A_Shoot, A_MissileWeapon` | `rott/rt_actor.h` |
+| `ActivateEnemy` | `rott/_rt_acto.h` |
+| `ActivateLight / DeactivateLight` | `rott/rt_stat.c` |
+| `ActivateLight / DeactivateLight` | `rott/rt_stat.h` |
+| `ActorMovement` | `rott/rt_actor.c` |
+| `ActorTryMove` | `rott/rt_actor.c` |
+| `ActorTryMove` | `rott/rt_actor.h` |
+| `AddAnimStatic` | `rott/_rt_stat.h` |
+| `AddCinematicActor` | `rott/cin_actr.c` |
+| `AddCinematicActor` | `rott/cin_actr.h` |
+| `AddClientPacket` | `rott/rt_net.c` |
+| `AddEvent` | `rott/cin_evnt.c` |
+| `AddEvent` | `rott/cin_evnt.h` |
+| `AddEvents` | `rott/rt_film.c` |
+| `AddLabel` | `rtsmaker/rtsmaker.c` |
+| `AddMessage` | `rott/rt_msg.c` |
+| `AddMessage` | `rott/rt_msg.h` |
+| `AddRemoteRidiculeCommand` | `rott/rt_net.h` |
+| `AddStatic` | `rott/_rt_stat.h` |
+| `AddStatic / RemoveStatic` | `rott/rt_stat.h` |
+| `AddTextMessage` | `rott/rt_net.h` |
+| `AllPlayersReady / AreClientsReady / IsServerCommandReady` | `rott/_rt_net.h` |
+| `AllocatePackets` | `rottcom/rottipx/ipxnet.c` |
+| `AllocateSavedScreenPtr / FreeSavedScreenPtr` | `rott/rt_menu.h` |
+| `AnimateWalls` | `rott/rt_stat.c` |
+| `AnimateWalls` | `rott/rt_stat.h` |
+| `Answer` | `rottcom/rottser/sermodem.c` |
+| `Answer` | `rottcom/rottser/sermodem.h` |
+| `ApogeeTitle` | `rott/rt_draw.c` |
+| `BATTLE_CheckGameStatus` | `rott/rt_battl.c` |
+| `BATTLE_CheckGameStatus` | `rott/rt_battl.h` |
+| `BATTLE_GetSpecials` | `rott/rt_battl.c` |
+| `BATTLE_Init` | `rott/rt_battl.c` |
+| `BATTLE_Init` | `rott/rt_battl.h` |
+| `BATTLE_PlayerKilledPlayer` | `rott/rt_battl.c` |
+| `BATTLE_PlayerKilledPlayer` | `rott/rt_battl.h` |
+| `BATTLE_SetOptions / BATTLE_GetOptions` | `rott/rt_battl.c` |
+| `BATTLE_SetOptions / BATTLE_GetOptions` | `rott/rt_battl.h` |
+| `BATTLE_Shutdown` | `rott/rt_battl.c` |
+| `BATTLE_Shutdown` | `rott/rt_battl.h` |
+| `BATTLE_SortPlayerRanks` | `rott/rt_battl.c` |
+| `BATTLE_SortPlayerRanks` | `rott/rt_battl.h` |
+| `BATTLE_StartRound` | `rott/rt_battl.c` |
+| `BLASTER_BeginBufferedPlayback` | `audiolib/source/blaster.c` |
+| `BLASTER_BeginBufferedPlayback` | `audiolib/source/blastold.c` |
+| `BLASTER_BeginBufferedPlayback / BLASTER_BeginBufferedRecord` | `audiolib/source/blaster.h` |
+| `BLASTER_BeginBufferedRecord` | `audiolib/source/blaster.c` |
+| `BLASTER_BeginBufferedRecord` | `audiolib/source/blastold.c` |
+| `BLASTER_EnableInterrupt / BLASTER_DisableInterrupt` | `audiolib/source/blaster.c` |
+| `BLASTER_GetCurrentPos` | `audiolib/source/blaster.c` |
+| `BLASTER_GetCurrentPos` | `audiolib/source/blastold.c` |
+| `BLASTER_GetDSPVersion` | `audiolib/source/blaster.c` |
+| `BLASTER_GetDSPVersion` | `audiolib/source/blastold.c` |
+| `BLASTER_GetEnv` | `audiolib/source/blaster.c` |
+| `BLASTER_GetEnv / BLASTER_SetCardSettings / BLASTER_GetCardSettings` | `audiolib/source/blaster.h` |
+| `BLASTER_GetVoiceVolume / BLASTER_SetVoiceVolume / BLASTER_GetMidiVolume / BLASTER_SetMidiVolume` | `audiolib/source/blaster.h` |
+| `BLASTER_Init` | `audiolib/source/blaster.c` |
+| `BLASTER_Init` | `audiolib/source/blastold.c` |
+| `BLASTER_Init / BLASTER_Shutdown` | `audiolib/source/blaster.h` |
+| `BLASTER_ReadDSP` | `audiolib/source/blaster.c` |
+| `BLASTER_ResetDSP` | `audiolib/source/blaster.c` |
+| `BLASTER_ResetDSP` | `audiolib/source/blastold.c` |
+| `BLASTER_ServiceInterrupt` | `audiolib/source/blaster.c` |
+| `BLASTER_ServiceInterrupt` | `audiolib/source/blastold.c` |
+| `BLASTER_SetCallBack` | `audiolib/source/blaster.h` |
+| `BLASTER_SetMixMode` | `audiolib/source/blaster.c` |
+| `BLASTER_SetMixMode` | `audiolib/source/blaster.h` |
+| `BLASTER_SetMixMode` | `audiolib/source/blastold.c` |
+| `BLASTER_SetPlaybackRate` | `audiolib/source/blaster.c` |
+| `BLASTER_SetPlaybackRate` | `audiolib/source/blastold.c` |
+| `BLASTER_SetPlaybackRate / BLASTER_GetPlaybackRate` | `audiolib/source/blaster.h` |
+| `BLASTER_SetupDMABuffer` | `audiolib/source/blaster.c` |
+| `BLASTER_SetupDMABuffer` | `audiolib/source/blaster.h` |
+| `BLASTER_Shutdown` | `audiolib/source/blaster.c` |
+| `BLASTER_Shutdown` | `audiolib/source/blastold.c` |
+| `BLASTER_StopPlayback` | `audiolib/source/blaster.c` |
+| `BLASTER_StopPlayback` | `audiolib/source/blastold.c` |
+| `BLASTER_WriteDSP` | `audiolib/source/blaster.c` |
+| `BLASTER_WriteDSP / BLASTER_ReadDSP` | `audiolib/source/blastold.c` |
+| `BLASTER_WriteDSP / BLASTER_ReadDSP / BLASTER_ResetDSP` | `audiolib/source/blaster.h` |
+| `BLASTER_WriteMixer / BLASTER_ReadMixer` | `audiolib/source/blaster.h` |
+| `BatAttack` | `rott/_rt_play.h` |
+| `BatAttack` | `rott/rt_playr.c` |
+| `BattleGamePlayerSetup / BattleNoTeams / BattleTeams / CP_BattleModes` | `rott/rt_menu.h` |
+| `BattleLevelCompleted` | `rott/rt_game.c` |
+| `BestColor` | `rott/rt_util.c` |
+| `BigShort / BigLong / LittleShort / LittleLong` | `rtsmaker/cmdlib.c` |
+| `Box / Line Primitives` | `rott/rt_build.h` |
+| `BuildGammaTable` | `rott/lookups.c` |
+| `BuildSinTable` | `rott/lookups.c` |
+| `BuildTables` | `rott/rt_draw.c` |
+| `BuildTables` | `rott/rt_draw.h` |
+| `BuildTanTable` | `rott/lookups.c` |
+| `CP_BattleModes` | `` |
+| `CP_ColorSelection / CP_SoundSetup` | `rott/rt_menu.h` |
+| `CP_Control / CP_ControlMenu` | `` |
+| `CP_DisplayMsg` | `` |
+| `CP_LoadGame / CP_SaveGame` | `` |
+| `CP_LoadGame / QuickSaveGame / UndoQuickSaveGame` | `rott/rt_menu.h` |
+| `CP_MainMenu` | `` |
+| `CP_NewGame` | `` |
+| `CP_PlayerSelection / CP_EnterCodeNameMenu` | `rott/rt_menu.h` |
+| `CP_SoundSetup` | `` |
+| `CacheLayoutGraphics` | `rott/rt_text.c` |
+| `CacheScriptFile` | `rott/cin_main.c` |
+| `CalcHeight` | `rott/rt_draw.c` |
+| `CalcHeight` | `rott/rt_draw.h` |
+| `CalcPixelAngles` | `rott/lookups.c` |
+| `CalcPlanes` | `rott/rt_build.c` |
+| `CalcProjection` | `rott/rt_view.c` |
+| `CalcRotate` | `rott/_rt_draw.h` |
+| `CalcRotate` | `rott/rt_draw.c` |
+| `CalcSamplingRate` | `audiolib/source/_blaster.h` |
+| `CalcTics` | `rott/rt_draw.c` |
+| `CalcTimeConstant` | `audiolib/source/_blaster.h` |
+| `CalculateCRC` | `rott/rt_crc.c` |
+| `CalculateCRC` | `rott/rt_crc.h` |
+| `Cast` | `rott/engine.c` |
+| `ChangeFocalWidth` | `rott/rt_view.c` |
+| `ChangeMapScale` | `rott/rt_map.c` |
+| `CheatMap` | `rott/rt_map.h` |
+| `CheatMap / FixMapSeen` | `rott/rt_map.c` |
+| `CheatSpawnItem` | `rott/rt_debug.c` |
+| `CheckCode` | `rott/rt_debug.c` |
+| `CheckCommandLineParameters` | `rott/rt_main.c` |
+| `CheckCriticalStatics` | `rott/rt_stat.c` |
+| `CheckDebug` | `rott/rt_debug.c` |
+| `CheckDebug` | `rott/rt_debug.h` |
+| `CheckDoor / NextToDoor` | `rott/_rt_acto.h` |
+| `CheckFlying` | `rott/rt_playr.c` |
+| `CheckForQuickLoad` | `rott/_rt_main.h` |
+| `CheckForSyncCheck` | `rott/rt_net.h` |
+| `CheckHighScore` | `rott/rt_game.c` |
+| `CheckHighScore / DrawHighScores` | `rott/rt_game.h` |
+| `CheckParameter` | `rottcom/rottser/st_cfg.c` |
+| `CheckParm` | `rott/rottnet.h` |
+| `CheckParm` | `rott/rt_util.c` |
+| `CheckParm` | `rottcom/rottipx/global.c` |
+| `CheckParm` | `rottcom/rottipx/global.h` |
+| `CheckParm` | `rottcom/rottser/global.c` |
+| `CheckParm` | `rtsmaker/cmdlib.c` |
+| `CheckParm` | `rtsmaker/cmdlib.h` |
+| `CheckParm / US_CheckParm` | `rottcom/rottser/global.h` |
+| `CheckPlayerSpecials` | `rott/rt_playr.c` |
+| `CheckProtectionsAndPowerups` | `rott/rt_playr.c` |
+| `CheckTile` | `rott/rt_door.c` |
+| `CheckUserParm` | `audiolib/public/pm/source/pm.c` |
+| `CheckUserParm` | `audiolib/public/ps/ps.c` |
+| `CheckVendor` | `rott/rt_cfg.c` |
+| `CheckWeaponChange` | `rott/rt_playr.c` |
+| `CheckWeaponStates` | `rott/rt_playr.c` |
+| `CinematicAbort` | `rott/cin_glob.c` |
+| `CinematicAbort` | `rott/cin_glob.h` |
+| `CinematicDelay` | `rott/cin_glob.c` |
+| `CinematicDelay` | `rott/cin_glob.h` |
+| `CinematicGetPalette` | `rott/cin_util.c` |
+| `CinematicGetPalette` | `rott/cin_util.h` |
+| `CinematicSetPalette` | `rott/cin_util.c` |
+| `CinematicSetPalette` | `rott/cin_util.h` |
+| `ClearBuffer_DW` | `audiolib/source/_multivc.h` |
+| `ClearCinematicAbort` | `rott/cin_glob.c` |
+| `ClearCinematicAbort` | `rott/cin_glob.h` |
+| `CloseSpaceBall` | `rott/rt_spbal.c` |
+| `CloseSpaceBall` | `rott/rt_spbal.h` |
+| `CmdRTSName` | `rtsmaker/rtsmaker.c` |
+| `Cmd_Fire` | `rott/rt_playr.c` |
+| `Cmd_Fire` | `rott/rt_playr.h` |
+| `Cmd_Use` | `rott/rt_playr.c` |
+| `Collision` | `rott/rt_actor.c` |
+| `Collision, T_Collide` | `rott/rt_actor.h` |
+| `Configuration Functions` | `audiolib/source/blaster.c` |
+| `Configuration and card detection` | `audiolib/source/blastold.c` |
+| `Connect` | `rottcom/rottser/sercom.c` |
+| `Connect` | `rottcom/rottser/sercom.h` |
+| `ConnectAreas` | `rott/rt_door.c` |
+| `ConnectAreas` | `rott/rt_door.h` |
+| `ConsoleIsServer` | `rott/rt_net.h` |
+| `ControlPanel` | `` |
+| `ControlPanel / CP_MainMenu / DoMainMenu` | `rott/rt_menu.h` |
+| `ControlPlayer` | `rott/rt_net.h` |
+| `ControlPlayerObj` | `rott/rt_net.c` |
+| `ControlRemote` | `rott/rt_net.h` |
+| `ConvertPasswordStringToPassword` | `rott/rt_cfg.c` |
+| `ConvertPasswordStringToString` | `rott/rt_cfg.c` |
+| `ConvertPasswordToPasswordString` | `rott/rt_cfg.c` |
+| `ConvertStringToPasswordString` | `rott/rt_cfg.c` |
+| `CopyLump` | `rtsmaker/rtsmaker.c` |
+| `CopyNextFlicBlock` | `rott/fli_main.c` |
+| `CopyNextFlicBlock` | `rott/fli_main.h` |
+| `CreateEvent` | `rott/cin_evnt.c` |
+| `CreateEvent` | `rott/cin_evnt.h` |
+| `D32DosMemAlloc` | `audiolib/source/gus.c` |
+| `D32DosMemAlloc` | `audiolib/source/gusmidi2.c` |
+| `D32DosMemAlloc` | `audiolib/source/gusmidi2.h` |
+| `D32DosMemAlloc` | `audiolib/source/irq.c` |
+| `DB_PrintNum` | `audiolib/source/debugio.c` |
+| `DB_PrintNum` | `audiolib/source/debugio.h` |
+| `DB_PrintString` | `audiolib/source/debugio.c` |
+| `DB_PrintString` | `audiolib/source/debugio.h` |
+| `DB_PrintUnsigned` | `audiolib/source/debugio.c` |
+| `DB_PrintUnsigned` | `audiolib/source/debugio.h` |
+| `DB_PutChar` | `audiolib/source/debugio.c` |
+| `DB_PutChar` | `audiolib/source/debugio.h` |
+| `DB_SetXY` | `audiolib/source/debugio.c` |
+| `DB_SetXY` | `audiolib/source/debugio.h` |
+| `DB_printf` | `audiolib/source/debugio.c` |
+| `DB_printf` | `audiolib/source/debugio.h` |
+| `DMA_EndTransfer` | `audiolib/source/dma.c` |
+| `DMA_EndTransfer` | `audiolib/source/dma.h` |
+| `DMA_ErrorString` | `audiolib/source/dma.c` |
+| `DMA_GetCurrentPos` | `audiolib/source/dma.c` |
+| `DMA_GetCurrentPos` | `audiolib/source/dma.h` |
+| `DMA_GetTransferCount` | `audiolib/source/dma.c` |
+| `DMA_GetTransferCount` | `audiolib/source/dma.h` |

@@ -1,0 +1,11 @@
+[Tue Mar  3 00:37:23 EST 2026] START: rott/cin_efct.c
+[Tue Mar  3 00:37:23 EST 2026] fence=c src=/mnt/c/Coding/3DRealms/vanilla-rott/rott/cin_efct.c
+[Tue Mar  3 00:37:23 EST 2026] pass1 loaded: 10731 bytes
+[Tue Mar  3 00:37:23 EST 2026] src_lines=896
+[Tue Mar  3 00:37:23 EST 2026] source truncated to 500 lines
+[Tue Mar  3 00:37:23 EST 2026] context sizes: arch=29B xref=14671B
+[Tue Mar  3 00:37:23 EST 2026] payload built: 36731 chars
+[Tue Mar  3 00:37:23 EST 2026] calling claude -p --model haiku ...
+[Tue Mar  3 00:37:23 EST 2026] attempt 1: sending to claude...
+[Tue Mar  3 00:37:31 EST 2026] claude returned: exit=0 resp_size=28
+[Tue Mar  3 00:37:31 EST 2026] success

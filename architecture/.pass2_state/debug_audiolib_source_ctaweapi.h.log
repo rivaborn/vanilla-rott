@@ -1,0 +1,10 @@
+[Tue Mar  3 00:23:15 EST 2026] START: audiolib/source/ctaweapi.h
+[Tue Mar  3 00:23:15 EST 2026] fence=c src=/mnt/c/Coding/3DRealms/vanilla-rott/audiolib/source/ctaweapi.h
+[Tue Mar  3 00:23:15 EST 2026] pass1 loaded: 6010 bytes
+[Tue Mar  3 00:23:15 EST 2026] src_lines=352
+[Tue Mar  3 00:23:15 EST 2026] context sizes: arch=29B xref=14671B
+[Tue Mar  3 00:23:15 EST 2026] payload built: 33783 chars
+[Tue Mar  3 00:23:15 EST 2026] calling claude -p --model haiku ...
+[Tue Mar  3 00:23:15 EST 2026] attempt 1: sending to claude...
+[Tue Mar  3 00:23:37 EST 2026] claude returned: exit=0 resp_size=28
+[Tue Mar  3 00:23:37 EST 2026] success

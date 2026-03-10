@@ -1,0 +1,10 @@
+[Tue Mar  3 00:34:41 EST 2026] START: rott/_rt_game.h
+[Tue Mar  3 00:34:41 EST 2026] fence=c src=/mnt/c/Coding/3DRealms/vanilla-rott/rott/_rt_game.h
+[Tue Mar  3 00:34:41 EST 2026] pass1 loaded: 3354 bytes
+[Tue Mar  3 00:34:41 EST 2026] src_lines=140
+[Tue Mar  3 00:34:41 EST 2026] context sizes: arch=29B xref=14671B
+[Tue Mar  3 00:34:41 EST 2026] payload built: 21886 chars
+[Tue Mar  3 00:34:41 EST 2026] calling claude -p --model haiku ...
+[Tue Mar  3 00:34:41 EST 2026] attempt 1: sending to claude...
+[Tue Mar  3 00:35:03 EST 2026] claude returned: exit=0 resp_size=28
+[Tue Mar  3 00:35:03 EST 2026] success

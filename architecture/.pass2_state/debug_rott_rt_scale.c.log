@@ -1,0 +1,11 @@
+[Tue Mar  3 00:49:53 EST 2026] START: rott/rt_scale.c
+[Tue Mar  3 00:49:53 EST 2026] fence=c src=/mnt/c/Coding/3DRealms/vanilla-rott/rott/rt_scale.c
+[Tue Mar  3 00:49:53 EST 2026] pass1 loaded: 11968 bytes
+[Tue Mar  3 00:49:53 EST 2026] src_lines=1193
+[Tue Mar  3 00:49:53 EST 2026] source truncated to 500 lines
+[Tue Mar  3 00:49:53 EST 2026] context sizes: arch=29B xref=14671B
+[Tue Mar  3 00:49:53 EST 2026] payload built: 38301 chars
+[Tue Mar  3 00:49:53 EST 2026] calling claude -p --model haiku ...
+[Tue Mar  3 00:49:53 EST 2026] attempt 1: sending to claude...
+[Tue Mar  3 00:50:44 EST 2026] claude returned: exit=0 resp_size=8726
+[Tue Mar  3 00:50:44 EST 2026] success

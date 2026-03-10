@@ -1,0 +1,11 @@
+[Tue Mar  3 00:29:11 EST 2026] START: audiolib/source/mv_mix16.asm
+[Tue Mar  3 00:29:11 EST 2026] fence=c src=/mnt/c/Coding/3DRealms/vanilla-rott/audiolib/source/mv_mix16.asm
+[Tue Mar  3 00:29:11 EST 2026] pass1 loaded: 6588 bytes
+[Tue Mar  3 00:29:11 EST 2026] src_lines=524
+[Tue Mar  3 00:29:11 EST 2026] source truncated to 500 lines
+[Tue Mar  3 00:29:12 EST 2026] context sizes: arch=29B xref=14671B
+[Tue Mar  3 00:29:12 EST 2026] payload built: 38838 chars
+[Tue Mar  3 00:29:12 EST 2026] calling claude -p --model haiku ...
+[Tue Mar  3 00:29:12 EST 2026] attempt 1: sending to claude...
+[Tue Mar  3 00:29:54 EST 2026] claude returned: exit=0 resp_size=7371
+[Tue Mar  3 00:29:54 EST 2026] success

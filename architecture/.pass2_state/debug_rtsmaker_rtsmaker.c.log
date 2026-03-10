@@ -1,0 +1,11 @@
+[Tue Mar  3 01:01:06 EST 2026] START: rtsmaker/rtsmaker.c
+[Tue Mar  3 01:01:06 EST 2026] fence=c src=/mnt/c/Coding/3DRealms/vanilla-rott/rtsmaker/rtsmaker.c
+[Tue Mar  3 01:01:06 EST 2026] pass1 loaded: 8506 bytes
+[Tue Mar  3 01:01:06 EST 2026] src_lines=691
+[Tue Mar  3 01:01:06 EST 2026] source truncated to 500 lines
+[Tue Mar  3 01:01:06 EST 2026] context sizes: arch=29B xref=14671B
+[Tue Mar  3 01:01:06 EST 2026] payload built: 33450 chars
+[Tue Mar  3 01:01:06 EST 2026] calling claude -p --model haiku ...
+[Tue Mar  3 01:01:06 EST 2026] attempt 1: sending to claude...
+[Tue Mar  3 01:01:40 EST 2026] claude returned: exit=0 resp_size=4561
+[Tue Mar  3 01:01:40 EST 2026] success

@@ -1,0 +1,10 @@
+[Tue Mar  3 00:24:48 EST 2026] START: audiolib/source/gmtemp.c
+[Tue Mar  3 00:24:48 EST 2026] fence=c src=/mnt/c/Coding/3DRealms/vanilla-rott/audiolib/source/gmtemp.c
+[Tue Mar  3 00:24:48 EST 2026] pass1 loaded: 2022 bytes
+[Tue Mar  3 00:24:48 EST 2026] src_lines=289
+[Tue Mar  3 00:24:48 EST 2026] context sizes: arch=29B xref=14671B
+[Tue Mar  3 00:24:48 EST 2026] payload built: 37580 chars
+[Tue Mar  3 00:24:48 EST 2026] calling claude -p --model haiku ...
+[Tue Mar  3 00:24:48 EST 2026] attempt 1: sending to claude...
+[Tue Mar  3 00:25:16 EST 2026] claude returned: exit=0 resp_size=4602
+[Tue Mar  3 00:25:16 EST 2026] success
